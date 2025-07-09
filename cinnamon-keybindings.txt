@@ -1,0 +1,12 @@
+# produced from runnning `dconf dump /org/cinnamon/desktop/keybindings/`
+
+[media-keys]
+area-screenshot=['<Shift>Print', '<Shift><Super>s']
+area-screenshot-clip=['<Control><Shift>Print', '<Shift><Alt><Super>s', 'KP_8']
+home=['<Super>e', 'XF86Explorer', 'KP_4']
+mic-mute=['XF86AudioMicMute', 'KP_1']
+suspend=['XF86Sleep', 'KP_0']
+terminal=['<Primary><Alt>t', 'KP_3']
+www=['XF86WWW', 'KP_5']
+
+[wm]

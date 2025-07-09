@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/local/bin/nata -p 127.0.0.1:6282 -c /home/rivques/.config/kanata/config.json
