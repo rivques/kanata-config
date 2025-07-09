@@ -1,1 +1,11 @@
-/etc/systemd/system/kanata.service
+[Unit]
+Description=Kanata Service
+Requires=local-fs.target
+After=local-fs.target
+
+[Service]
+ExecStart=/usr/local/bin/kanata -c /home/rivques/.config/kanata/kanata.kbd -p 6282
+Restart=no
+
+[Install]
+WantedBy=multi-user.target
